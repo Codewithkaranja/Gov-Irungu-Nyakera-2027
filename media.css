@@ -215,6 +215,54 @@
             max-width: 600px;
             margin: 0 auto;
         }
+        .page-hero {
+    position: relative;
+    height: 70vh;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+/* HERO BACKGROUND */
+.media-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("image\ -\ 2026-01-20T131030.990.webp");
+    background-size: cover;
+    background-position:center 20%; /* 🔑 DO NOT REMOVE */
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* CONTENT */
+.hero-content {
+    max-width: 900px;
+    padding: 0 1.5rem;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.3rem, 5vw, 3.7rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    max-width: 750px;
+    margin: 0 auto;
+    color: #f1f1f1;
+}
+
         
         /* Footer */
         footer {

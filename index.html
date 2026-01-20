@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Irungu Nyakera | Nairobi Governor Aspirant 2027</title>
+    <title>Irungu Nyakera | Nairobi Governor Aspirant 2027 | Democracy for Citizens Party</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
    <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -32,7 +33,7 @@
                 <li><a href="media.html">Media</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#" class="btn btn-primary" style="padding: 8px 20px; margin-left: 10px;">Donate</a></li>
+                <li><a href="#donate" class="btn btn-primary" style="padding: 10px 22px; margin-left: 10px;">Donate</a></li>
             </ul>
         </div>
     </nav>
@@ -41,11 +42,37 @@
     <section class="hero">
         <div class="hero-bg"></div>
         <div class="hero-content">
-            <h1>Together for a Stronger, Safer, and Smarter Nairobi</h1>
-            <p>Wilson Irungu Nyakera is committed to transforming Nairobi into a hub of innovation, inclusivity, and sustainable development. Join the movement for accountable leadership in the 2027 elections.</p>
-            <div class="hero-buttons">
+            <h1 class="animate__animated animate__fadeInDown">Vote For Hon. Irungu Nyakera </h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Together for a Stronger, Safer, and Smarter Nairobi.</p>
+            <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-2s">
                 <a href="volunteer.html" class="btn btn-primary">Join the Movement</a>
                 <a href="#vision" class="btn btn-secondary">Our Vision for Nairobi</a>
+            </div>
+            
+            <div class="countdown animate__animated animate__fadeInUp animate__delay-3s">
+                <h3><i class="fas fa-clock"></i> Countdown to 2027 Elections</h3>
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="days">000</div>
+                        <div class="countdown-label">Days</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="hours">00</div>
+                        <div class="countdown-label">Hours</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="minutes">00</div>
+                        <div class="countdown-label">Minutes</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="seconds">00</div>
+                        <div class="countdown-label">Seconds</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-subtext animate__animated animate__fadeIn animate__delay-3s">
+                <i class="fas fa-vote-yea"></i> Democracy for Citizens Party (DCP) | Nairobi Governor Aspirant 2027
             </div>
         </div>
     </section>
@@ -53,68 +80,194 @@
     <!-- Stats Section -->
     <section class="stats">
         <div class="container">
-            <div class="section-title" style="text-align: center; margin-bottom: 50px;">
-                <h2 style="font-size: 2.5rem; color: var(--black); margin-bottom: 15px;">Proven Leadership for Nairobi</h2>
-                <p style="font-size: 1.2rem; color: var(--gray); max-width: 700px; margin: 0 auto;">With a track record of excellence in both government and private sector, Irungu Nyakera brings transformative leadership to Nairobi County</p>
+            <div class="section-title">
+                <h2>Proven Leadership for Nairobi</h2>
+                <p>With a track record of excellence in both government and private sector, Irungu Nyakera brings transformative leadership to Nairobi County</p>
             </div>
             
             <div class="stats-grid">
                 <div class="stat-card">
                     <i class="fas fa-university"></i>
-                    <div class="stat-number">10+</div>
+                    <div class="stat-number" data-count="10">0</div>
                     <div class="stat-text">Years in Government & Corporate Leadership</div>
                 </div>
                 
                 <div class="stat-card">
                     <i class="fas fa-award"></i>
-                    <div class="stat-number">33</div>
+                    <div class="stat-number" data-count="33">0</div>
                     <div class="stat-text">Youngest-Ever Principal Secretary in Kenya</div>
                 </div>
                 
                 <div class="stat-card">
                     <i class="fas fa-graduation-cap"></i>
-                    <div class="stat-text">Oxford & Stanford Educated Leader</div>
+                    <div class="stat-number">Oxford & Stanford</div>
+                    <div class="stat-text">World-Class Education for World-Class Leadership</div>
                 </div>
                 
                 <div class="stat-card">
                     <i class="fas fa-bullseye"></i>
-                    <div class="stat-text">Focus on Development, Accountability & Innovation</div>
+                    <div class="stat-number">5-Pillar</div>
+                    <div class="stat-text">Comprehensive Development Plan for Nairobi</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Vision Section -->
-    <section id="vision" style="padding: 80px 0; background-color: #f0f9ff;">
+    <section id="vision" class="vision">
         <div class="container">
-            <div class="section-title" style="text-align: center; margin-bottom: 50px;">
-                <h2 style="font-size: 2.5rem; color: var(--black); margin-bottom: 15px;">Our Vision for Nairobi</h2>
-                <p style="font-size: 1.2rem; color: var(--gray); max-width: 700px; margin: 0 auto;">A comprehensive plan to transform Nairobi into a model African city</p>
+            <div class="section-title">
+                <h2>Our Vision for Nairobi</h2>
+                <p>A comprehensive 5-pillar plan to transform Nairobi into a model African city by 2030</p>
             </div>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
-                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-left: 5px solid var(--emerald);">
-                    <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--black);">Smart Governance</h3>
-                    <p style="color: var(--gray);">Implement digital systems for transparency, efficient service delivery, and citizen engagement through technology-driven solutions.</p>
+            <div class="vision-grid">
+                <div class="vision-card">
+                    <h3><i class="fas fa-laptop-code"></i> Smart Governance</h3>
+                    <p>Implement digital systems for transparency, efficient service delivery, and citizen engagement through technology-driven solutions.</p>
+                    <ul class="vision-features">
+                        <li>Digital County Services Portal</li>
+                        <li>E-Procurement & Transparency Systems</li>
+                        <li>Citizen Feedback & Participation Platforms</li>
+                        <li>Real-time Service Delivery Tracking</li>
+                    </ul>
                 </div>
                 
-                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-left: 5px solid var(--gold);">
-                    <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--black);">Economic Empowerment</h3>
-                    <p style="color: var(--gray);">Support youth entrepreneurship, SMEs, and create inclusive business policies to stimulate job creation and economic growth.</p>
+                <div class="vision-card">
+                    <h3><i class="fas fa-chart-line"></i> Economic Empowerment</h3>
+                    <p>Support youth entrepreneurship, SMEs, and create inclusive business policies to stimulate job creation and economic growth.</p>
+                    <ul class="vision-features">
+                        <li>50,000 Youth Jobs Creation Program</li>
+                        <li>SME Development Fund & Support</li>
+                        <li>Nairobi Innovation & Tech Hub</li>
+                        <li>Business Registration Simplified</li>
+                    </ul>
                 </div>
                 
-                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-left: 5px solid var(--emerald);">
-                    <h3 style="font-size: 1.5rem; margin-bottom: 15px; color: var(--black);">Infrastructure & Mobility</h3>
-                    <p style="color: var(--gray);">Upgrade roads, public transport, and housing solutions to address Nairobi's growing urban mobility challenges.</p>
+                <div class="vision-card">
+                    <h3><i class="fas fa-road"></i> Infrastructure & Mobility</h3>
+                    <p>Upgrade roads, public transport, and housing solutions to address Nairobi's growing urban mobility challenges.</p>
+                    <ul class="vision-features">
+                        <li>Modernized Public Transport System</li>
+                        <li>Road Network Upgrade & Maintenance</li>
+                        <li>Affordable Housing Program</li>
+                        <li>Pedestrian & Cycling Infrastructure</li>
+                    </ul>
                 </div>
             </div>
             
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="about.html" class="btn btn-primary">Learn More About Our Vision</a>
+            <div class="vision-button">
+                <a href="about.html" class="btn btn-primary">Explore Our Complete Vision</a>
             </div>
         </div>
     </section>
 
+    <!-- Policy Highlights -->
+    <section class="policy-highlights">
+        <div class="container">
+            <div class="section-title">
+                <h2>Key Policy Areas</h2>
+                <p>Comprehensive solutions to Nairobi's most pressing challenges</p>
+            </div>
+            
+            <div class="policy-grid">
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety & Security</h3>
+                    <p>Neighborhood policing, modern surveillance systems, and community safety programs to make Nairobi safer for all residents.</p>
+                    <a href="about.html" class="btn btn-secondary" style="padding: 10px 25px;">Learn More</a>
+                </div>
+                
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Environmental Sustainability</h3>
+                    <p>Green spaces expansion, waste management reforms, and climate-conscious urban planning for a cleaner Nairobi.</p>
+                    <a href="about.html" class="btn btn-secondary" style="padding: 10px 25px;">Learn More</a>
+                </div>
+                
+                <div class="policy-card">
+                    <div class="policy-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Healthcare Access</h3>
+                    <p>Improved public health facilities, affordable healthcare access, and digital health services across all constituencies.</p>
+                    <a href="about.html" class="btn btn-secondary" style="padding: 10px 25px;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Preview -->
+    <section class="news-preview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest Campaign News</h2>
+                <p>Stay updated with the latest developments from Irungu Nyakera's campaign</p>
+            </div>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-image" style="background-image: url('image\ -\ 2026-01-20T131149.493.webp');">
+                        <span class="news-category">Campaign Launch</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date"><i class="far fa-calendar"></i> June 15, 2025</div>
+                        <h3>Nyakera Officially Launches Gubernatorial Campaign</h3>
+                        <p>Thousands gather at KICC as Irungu Nyakera unveils his vision for Nairobi's transformation under the DCP banner.</p>
+                        <a href="news.html" class="news-link">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-image" style="background-image: url('image\ -\ 2026-01-20T132305.760.webp');">
+                        <span class="news-category">Town Hall</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date"><i class="far fa-calendar"></i> June 12, 2025</div>
+                        <h3>Interactive Town Hall Meetings Across Constituencies</h3>
+                        <p>Nyakera engages directly with Nairobi residents to understand their concerns and incorporate feedback into policy.</p>
+                        <a href="news.html" class="news-link">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-image" style="background-image: url('image\ -\ 2026-01-20T132007.805.webp');">
+                        <span class="news-category">Policy</span>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date"><i class="far fa-calendar"></i> June 8, 2025</div>
+                        <h3>Comprehensive Transport Policy Unveiled</h3>
+                        <p>Detailed 10-point plan to revolutionize Nairobi's public transport and address traffic congestion challenges.</p>
+                        <a href="news.html" class="news-link">Read Full Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vision-button" style="margin-top: 50px;">
+                <a href="news.html" class="btn btn-secondary">View All News & Updates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Be Part of Nairobi's Transformation</h2>
+                <p>Your support can help build a stronger, safer, and smarter Nairobi for future generations. Join thousands of Nairobi residents who have already pledged their support for Irungu Nyakera's vision.</p>
+                <div class="cta-buttons">
+                    <a href="volunteer.html" class="btn btn-gold">Volunteer for the Campaign</a>
+                    <a href="#donate" class="btn btn-primary">Support Our Campaign</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -126,11 +279,11 @@
                     </div>
                     <p>Wilson Irungu Nyakera is a committed leader, technocrat, and public servant with a proven track record of excellence in governance. Join us in building a better Nairobi for all.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://web.facebook.com/p/Irungu-Nyakera-100063650982750/?_rdc=1&_rdr#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/wnyakera?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/irungunyakera/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/irungu-nyakera-292a3b4?originalSubdomain=ke" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://youtu.be/tn-x71pq8Bo?si=_3abf1iCUEI7mhTJ" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 
@@ -149,10 +302,10 @@
                 <div class="footer-contact">
                     <h3 class="footer-heading">Contact Info</h3>
                     <ul class="contact-info">
-                        <li><i class="fas fa-map-marker-alt"></i> Nairobi County, Kenya</li>
-                        <li><i class="fas fa-phone"></i> +254 727 329 860</li>
-                        <li><i class="fas fa-phone"></i> +254 716 060 665</li>
-                        <li><i class="fas fa-envelope"></i> info@irungunyakerafoundation.org</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/TMBHVokGwfyDjUWs5">Nairobi County, Kenya</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+254727329860" style="color: var(--gray-light);">+254 727 329 860</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+254716060665" style="color: var(--gray-light);">+254 716 060 665</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@irungunyakerafoundation.org" style="color: var(--gray-light);">info@irungunyakerafoundation.org</a></li>
                     </ul>
                 </div>
             </div>
@@ -170,7 +323,7 @@
     </a>
 
     <script src="index.js">
-       
+      
     </script>
 </body>
 </html>

@@ -129,7 +129,7 @@
                 date: "May 25, 2025",
                 title: "Meeting with Business Leaders",
                 excerpt: "Irungu Nyakera discussing economic policies with Nairobi's business community at the Serena Hotel.",
-                image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+                image: "image - 2026-01-20T131149.493.webp",
                 type: "photo"
             },
             {
@@ -137,15 +137,15 @@
                 date: "May 22, 2025",
                 title: "Environmental Policy Announcement",
                 excerpt: "Watch the full announcement of Irungu Nyakera's plan to increase Nairobi's green spaces by 30%.",
-                image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80",
-                type: "video"
+                image: "https://image - 2026-01-20T131149.493.webp",
+                type: "https://youtu.be/EjAmRAZqgHs?si=h3zH9iUWdylEBmlS"
             },
             {
                 category: "community",
                 date: "May 18, 2025",
                 title: "Visit to Mathare Health Clinic",
                 excerpt: "Irungu Nyakera visiting a health clinic in Mathare to understand healthcare challenges in informal settlements.",
-                image: "https://images.unsplash.com/photo-1516549655669-df6654e435f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+                image: "https://image - 2026-01-20T131400.859.webp",
                 type: "photo"
             }
         ];
@@ -172,7 +172,7 @@
                         <h3>${mediaItem.title}</h3>
                         <p>${mediaItem.excerpt}</p>
                         ${isVideo ? 
-                            `<a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" class="media-link">Watch Video <i class="fas fa-external-link-alt"></i></a>` : 
+                            `<a href="https://youtu.be/EjAmRAZqgHs?si=h3zH9iUWdylEBmlS" target="_blank" class="media-link">Watch Video <i class="fas fa-external-link-alt"></i></a>` : 
                             `<a href="#" class="media-link view-image" data-image="${mediaItem.image}">View Full Image <i class="fas fa-external-link-alt"></i></a>`
                         }
                     </div>
