@@ -118,9 +118,9 @@
 const heroBg = document.querySelector('.hero-bg');
 
 const heroImages = [
-    'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1771&q=80',
-    'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1770&q=80',
-    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1770&q=80'
+    'image - 2026-01-20T132108.176.webp',
+    'image - 2026-01-20T131239.220.webp',
+    'image - 2026-01-20T132147.383.webp'
 ];
 
 let currentIndex = 0;
